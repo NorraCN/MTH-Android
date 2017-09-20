@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#44B86B">
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="@dimen/w80"
+        android:layout_height="@dimen/w80"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/w20"
+        android:layout_marginTop="@dimen/w10"
+        android:src="@drawable/close"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/h10"
+        android:drawableTop="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:drawablePadding="@dimen/w20"
+        android:textSize="@dimen/w40" />
+    <TextView
+        android:id="@+id/norra_slogan"
+        android:layout_below="@+id/app_name"
+        android:text="@string/about_info"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/w100"
+        android:lineSpacingExtra="@dimen/w10"
+        android:layout_marginRight="@dimen/w100"
+        android:textColor="@color/gray"
+        android:layout_marginTop="@dimen/h30"
+        android:textSize="@dimen/w30" />
+
+
+</RelativeLayout>

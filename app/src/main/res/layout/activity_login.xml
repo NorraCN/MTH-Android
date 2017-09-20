@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@color/theme"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/w32" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/h80"
+        android:background="@color/gray_bc" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h90"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/user_name"
+        android:textColorHint="@color/gray_bc"
+        android:paddingLeft="@dimen/w30"
+        android:singleLine="true"
+        android:text="test1"
+        android:textSize="@dimen/w32" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/w30"
+        android:background="@color/gray_bc" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h90"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:textColorHint="@color/gray_bc"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/w30"
+        android:singleLine="true"
+        android:text="test1"
+        android:textSize="@dimen/w32" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/w30"
+        android:background="@color/gray_bc" />
+
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/common_button_bg"
+        android:text="@string/confirm"
+        android:textColor="@color/gray_59"
+        android:textSize="@dimen/w30" />
+
+    <TextView
+        android:id="@+id/error_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ff825b"
+        android:textSize="13sp" />
+</LinearLayout>

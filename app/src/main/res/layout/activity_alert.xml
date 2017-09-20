@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/w250"
+        android:layout_height="@dimen/w250"
+        android:layout_marginTop="@dimen/h50"
+        android:src="@drawable/warn" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:singleLine="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/theme"
+        android:text="007" />
+
+    <TextView
+        android:id="@+id/alert_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:text="2012-12-31 12:35" />
+
+    <TextView
+        android:id="@+id/only_gap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/alert_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="温度:88℃" />
+
+<!--    <TextView
+        android:id="@+id/alert_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="湿度:23%" />
+    <TextView
+        android:id="@+id/alert_data3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/alert_data4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp" />-->
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="电量:23%" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:background="@color/theme"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+
+</LinearLayout>

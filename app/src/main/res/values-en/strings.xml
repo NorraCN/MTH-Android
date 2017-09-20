@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Master TH</string>
+    <string name="input_username">Please enter the user name</string>
+    <string name="input_password">Please enter the password</string>
+    <string name="input_validate_code">Please enter the verification code</string>
+    <string name="device">Device</string>
+    <string name="login_state_expired">Login information has expired, please re login</string>
+    <string name="load_more">Load More</string>
+    <string name="load_finish">Load complete</string>
+    <string name="login_fail">Login fail</string>
+    <string name="data_search">Search Data</string>
+    <string name="data_error">DATA ABNORMAL</string>
+    <string name="set_success">Setting Success</string>
+    <string name="set_fail">Setting Fail</string>
+
+    <string name="no_data">No Data</string>
+    <string name="un_group">UnGroup</string>
+    <string name="remind">Notice</string>
+    <string name="confirm_log_out">Confirm Exit？</string>
+
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="temp">Temp</string>
+    <string name="hum">Hum</string>
+    <string name="co2">CO2</string>
+    <string name="light">Light</string>
+    <string name="pressure">Prs</string>
+    <string name="energy">Energy</string>
+
+    <string name="temperature_unit">Temperature ℃</string>
+    <string name="humidity_unit">Humidity %</string>
+    <string name="time">Time</string>
+
+    <string name="low">low</string>
+    <string name="high">high</string>
+    <string name="normal">normal</string>
+
+    <string name="result_num">items</string>
+    <string name="select_time_search_device_data">Please select time for search</string>
+
+    <string name="alert_set">Alert Set</string>
+    <string name="left_power">Left Power</string>
+    <string name="temperature_normal_range">Normal temperature range</string>
+    <string name="humidity_normal_range">Normal humidity range</string>
+    <string name="search_history_data">View History Data</string>
+
+    <string name="select_search_time">Select search time</string>
+    <string name="time_start">Time start</string>
+    <string name="time_end">Time end</string>
+    <string name="search">Search</string>
+    <string name="search_result_empty">No Result</string>
+
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="validate_code">Validate Code</string>
+    <string name="refresh_validate_code">Refresh validate code</string>
+
+    <string name="my_device">My Device</string>
+    <string name="refresh">Refresh</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <string name="about_info">A high tech product with temperature and humidity smart data-collecting，encryption transferring, cloud storage, data analysis, Real-Time alerts combination.</string>
+    <string name="shared_group">Shared Group</string>
+</resources>

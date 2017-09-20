@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@color/theme">
+
+        <Button
+            android:id="@+id/left_btn"
+            android:layout_width="@dimen/w70"
+            android:layout_height="@dimen/w70"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/w10"
+            android:background="@drawable/arrow_white_left"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/w42" />
+
+        <Button
+            android:id="@+id/right_btn"
+            android:layout_width="@dimen/w60"
+            android:layout_height="@dimen/w60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/w20"
+            android:background="@drawable/main_more"
+            android:gravity="center"
+            android:paddingRight="@dimen/w20"
+            android:text=""
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

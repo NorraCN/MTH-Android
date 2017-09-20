@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/device_icon"
+            android:layout_width="@dimen/w90"
+            android:layout_height="@dimen/w90"
+            android:layout_marginLeft="@dimen/w30"
+            android:gravity="center"
+            android:text="王"
+            android:textColor="@color/white"
+            android:textSize="@dimen/w40"
+            android:textStyle="bold"
+            android:background="@drawable/remote_contro_lamp_pallet_3" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w30"
+            android:id="@+id/device_data_rows"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/gray_59"
+                android:textSize="@dimen/w34"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_list_selector"
+                android:id="@+id/device_old_data_row"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/device_lastData1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/gray_59"
+                    android:textSize="@dimen/w26"
+                    android:visibility="visible" />
+                <TextView
+                    android:id="@+id/device_lastData3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/gray_59"
+                    android:textSize="@dimen/w26"
+                    android:visibility="visible" />
+                <TextView
+                    android:id="@+id/device_lastEnergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/energy"
+                    android:textColor="@color/gray_59"
+                    android:textSize="@dimen/w26"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_list_selector"
+                android:id="@+id/device_new_data_row"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/device_lastData2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/gray_59"
+                    android:textSize="@dimen/w26"
+                    android:visibility="visible" />
+                <TextView
+                    android:id="@+id/device_lastData4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/gray_59"
+                    android:textSize="@dimen/w26"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/device_lastData_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="2014-12-23 13：34"
+                android:textColor="@color/gray_59"
+                android:textSize="@dimen/w26"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/w150"
+        android:layout_marginRight="@dimen/w30"
+        android:background="@color/gray_bc" />
+
+</LinearLayout>

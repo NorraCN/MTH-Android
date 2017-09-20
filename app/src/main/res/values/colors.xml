@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="gray">#f9f9f9</color>
+    <color name="gray_bc">#bcbcbc</color>
+    <color name="gray_59">#595959</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#33B5E5</color>
+    <color name="theme">#1682DD</color>
+    <color name="red">#f44f4f</color>
+
+    <color name="bg_easy_sliding_tabs_pressed">#ff5CC1CB</color>
+
+</resources>

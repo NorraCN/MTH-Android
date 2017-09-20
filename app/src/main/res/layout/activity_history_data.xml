@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:paddingLeft="7dp"
+        android:paddingTop="3dp"
+        android:textColor="@color/gray_59"
+        android:text="@string/select_search_time" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@color/gray"
+        android:paddingRight="10dp"
+        android:paddingLeft="7dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/from_time"
+                android:layout_width="@dimen/w250"
+                android:layout_height="@dimen/h60"
+                android:textSize="12sp"
+                android:paddingLeft="3dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:hint="@string/time_start"
+                android:textColor="@color/gray_59"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="@dimen/w250"
+                android:layout_height="@dimen/h60"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:paddingLeft="3dp"
+                android:hint="@string/time_end"
+                android:textColor="@color/gray_59"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:text="" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="@dimen/w100"
+            android:layout_height="@dimen/h50"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/gray_59"
+            android:background="@drawable/common_button_bg"
+            android:textSize="@dimen/w26"
+            android:text="@string/search" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/total_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:textColor="@color/theme"
+        android:paddingLeft="7dp"
+        android:text=""
+        android:visibility="gone"
+        android:paddingBottom="2dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_result_empty"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <include layout="@layout/data_list_header" />
+
+    <ListView
+        android:id="@+id/data_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@drawable/transparent_list_selector"
+        android:footerDividersEnabled="false"
+        android:divider="@null"
+        android:background="@color/white">
+
+    </ListView>
+
+</LinearLayout>

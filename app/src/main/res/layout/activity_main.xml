@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/h100"
+        android:background="@color/theme"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_weight="0.46"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="@string/my_device"
+            android:textColor="@color/white"
+            android:textSize="@dimen/w36"/>
+
+        <ImageView
+            android:id="@+id/refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/refresh"/>
+        <ImageView
+            android:id="@+id/more_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:padding="10dp"
+            android:src="@drawable/main_more"/>
+    </LinearLayout>
+
+    <com.norra.cloud.widget.EasySlidingTabs
+        android:id="@+id/easy_sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        app:easyIndicatorColor="#ff57C1CC"
+        app:easySelectedTagTextColor="#ff57C1CC"
+        app:easyTabTextColor="@color/gray_59"
+        app:easyUnderlineColor="#ffdddddd"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

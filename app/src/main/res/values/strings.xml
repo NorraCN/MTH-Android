@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌握温湿度</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_validate_code">请输入验证码</string>
+    <string name="device">设备</string>
+    <string name="login_state_expired">登录信息已过期，请重新登录</string>
+    <string name="load_more">加载更多</string>
+    <string name="load_finish">已加载完</string>
+    <string name="login_fail">登录失败</string>
+    <string name="data_search">数据查询</string>
+    <string name="data_error">数据异常</string>
+    <string name="set_success">设置成功</string>
+    <string name="set_fail">设置失败</string>
+
+    <string name="no_data">无数据</string>
+    <string name="un_group">未分组</string>
+    <string name="remind">提示</string>
+    <string name="confirm_log_out">确认退出吗？</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="temp">温度</string>
+    <string name="hum">湿度</string>
+    <string name="co2">CO2</string>
+    <string name="light">光照</string>
+    <string name="pressure">压力</string>
+    <string name="energy">电量</string>
+
+    <string name="temperature_unit">温度℃</string>
+    <string name="humidity_unit">湿度%</string>
+    <string name="time">时间</string>
+
+    <string name="low">过低</string>
+    <string name="high">过高</string>
+    <string name="normal">正常</string>
+
+    <string name="result_num">条数据</string>
+    <string name="select_time_search_device_data">请选择时间查询设备数据</string>
+
+    <string name="alert_set">警报开关</string>
+    <string name="left_power">剩余电量</string>
+    <string name="temperature_normal_range">正常温度范围</string>
+    <string name="humidity_normal_range">正常湿度范围</string>
+    <string name="search_history_data">查看历史数据</string>
+
+    <string name="select_search_time">请选择查询时间范围</string>
+    <string name="time_start">起始时间</string>
+    <string name="time_end">结束时间</string>
+    <string name="search">查询</string>
+    <string name="search_result_empty">未查询到数据</string>
+
+    <string name="login">登录</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="validate_code">验证码</string>
+    <string name="refresh_validate_code">刷新验证码</string>
+
+    <string name="my_device">我的设备</string>
+    <string name="refresh">刷新</string>
+    <string name="about">关于</string>
+    <string name="logout">退出登录</string>
+
+    <string name="about_info">一款集温湿度数据采集，加密传输，云端存储，数据分析，实时报警为一体的高科技产品。</string>
+    <string name="shared_group">共享组设备</string>
+</resources>
